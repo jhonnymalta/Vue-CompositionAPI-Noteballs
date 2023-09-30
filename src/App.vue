@@ -1,10 +1,10 @@
-<script setup>
 
-</script>
 
-<template>
-  <router-link to="/">Note</router-link> |
-  <router-link to="/stats">Status</router-link>
-  <router-view/>
+<template class="">   
+  <NavBarComponent/>
+  <router-view class="container mx-auto py-4 "></router-view>
 </template>
 
+<script setup>
+import NavBarComponent from './components/NavBarComponent.vue';
+</script>
